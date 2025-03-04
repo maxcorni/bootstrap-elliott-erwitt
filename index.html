@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"> <!-- Définition du jeu de caractères pour la page -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Assure la réactivité sur les appareils mobiles -->
+	<title>Exposition Ellitt Erwitt Bruxelles bootstrap</title> <!-- Titre de la page -->
+    <link rel="icon" type="image/png" href="favicon-32x32.png"> <!-- Icône du site web -->
+    <meta name="description" content="Découvrez la carrière du photographe américain dans Eliott Erwitt. Une rétrospective à travers 215 photographies à la Grand Place de Bruxelles."> <!-- Description de la page pour les moteurs de recherche -->
+	<link rel="stylesheet" href="assets/vendors/bootstrap-fram/css/bootstrap.min.css"> <!-- Lien vers le fichier CSS de Bootstrap -->
+    <link rel="stylesheet" href="fonts/styles.css"> <!-- Lien vers le fichier de styles pour les polices -->
+	<link rel="stylesheet" href="css/styles.css"> <!-- Lien vers le fichier CSS personnalisé -->
+</head>
+
+<body>
+	<header class="bg-blue"> <!-- En-tête de la page avec un fond bleu -->
+		<div class="container"> <!-- Conteneur centralisé pour le contenu -->
+			<nav class="navbar navbar-expand-sm d-flex justify-content-between align-items-center w-100"> <!-- Navigation, alignée et flexible -->
+				<a href="#" class="navbar-brand"> <!-- Lien vers la page d'accueil avec le logo -->
+					<img src="assets/images/logo/exposition-elliott-erwitt-bruxelles-file-logo-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Le Logo De Elliott Erwitt" height="40" class="py-1"> <!-- Image du logo avec un texte alternatif -->
+				</a>
+				<!-- Bouton burger pour afficher le menu en mode mobile -->
+				<button class="navbar-toggler text-white bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span> <!-- Icône du menu burger -->
+				</button>
+				<!-- Liens de navigation visibles en mode desktop -->
+				<div class="nav justify-content-center d-none d-sm-flex"> <!-- Menu pour écran plus large -->
+					<a href="#" class="nav-link text-light fs-5" title="En savoir plus sur l'Exposition">Exposition</a>
+					<a href="#" class="nav-link text-light fs-5" title="Plus d'info sur la Visite">Visite</a>
+					<a href="#" class="nav-link text-light fs-5" title="Agenda des évènements">Agenda</a>
+					<a href="#" class="nav-link text-light fs-5" title="Voir la Billeterie">Billeterie</a>
+				</div>
+			</nav>
+		</div>
+		<!-- Menu offcanvas pour les petits écrans (mobile) -->
+		<div class="offcanvas offcanvas-end bg-blue" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Menu</h5> <!-- Titre du menu mobile -->
+				<button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button> <!-- Bouton pour fermer le menu mobile -->
+			</div>
+			<div class="offcanvas-body">
+				<!-- Liens du menu mobile -->
+				<a href="#" class="nav-link text-white fs-5" title="En savoir plus sur l'Exposition">Exposition</a>
+				<a href="#" class="nav-link text-white fs-5" title="Plus d'info sur la Visite">Visite</a>
+				<a href="#" class="nav-link text-white fs-5" title="Agenda des évènements">Agenda</a>
+				<a href="#" class="nav-link text-white fs-5" title="Voir la Billeterie">Billeterie</a>
+			</div>
+		</div>
+	</header>
+<main>
+	<!-- Section d'accueil avec un fond sombre et du texte centré -->
+	<section class="accueil bg-dark d-flex w-100 h-100 flex-column justify-content-center align-items-center">
+		<h1 class="display-1 text-black text-center fw-bold"> <!-- Titre principal -->
+			Elliott Erwitt Retrospective Bruxelles
+		</h1>
+		<p class="lead text-center text-black fw-bold"> <!-- Sous-titre avec la période de l'exposition -->
+			Du 7 juin 2024 au 09 mars 2025
+		</p>
+		<p class="lead mb-5"> <!-- Bouton d'appel à l'action pour acheter des billets -->
+			<a href="#" class="btn btn-lg bg-blue text-white" title="Voir la billeterie"> Billeterie</a>
+		</p>
+	</section>
+	<!-- Section avec un fond bleu présentant des informations sur Elliott Erwitt -->
+	<section class="bg-blue">
+		<div class="container py-5"> <!-- Conteneur pour le texte et l'image -->
+			<div class="row"> <!-- Disposition en grille avec deux colonnes -->
+				<div class="col-md-6"> <!-- Première colonne pour l'image -->
+					<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100"> <!-- Image du photographe -->
+				</div>
+				<div class="col-md-6"> <!-- Deuxième colonne pour le texte -->
+					<h2 class="display-1 text-white fw-bold"> <!-- Titre de la section -->
+						Elliott Erwitt
+					</h2>
+					<!-- Paragraphe présentant le photographe -->
+					<p class="lead text-white my-2">
+						Elliott Erwitt (1928-2023) était un photographe américain d'origine française, connu pour son regard plein d’humour et d’humanité sur le monde. Spécialiste du noir et blanc, il a capturé des scènes de la vie quotidienne avec une touche d'ironie et de poésie, transformant des moments ordinaires en instants inoubliables.
+					</p>
+					<!-- Autres paragraphes détaillant son histoire et sa carrière -->
+					<p class="lead text-white my-2">
+						Né à Paris de parents russes, Elliott Erwitt a passé son enfance en Italie avant d’émigrer aux États-Unis avec sa famille en raison du climat politique de l'époque. Passionné par la photographie dès son plus jeune âge, il a étudié à Los Angeles avant de s’installer à New York, où il a débuté sa carrière dans le monde de l’image.
+					</p>
+					<p class="lead text-white my-2">
+						Erwitt a rejoint la prestigieuse agence Magnum Photos en 1953, sous l'impulsion de Robert Capa. Son travail a couvert des sujets variés, des célébrités aux scènes de rue, en passant par la politique et les événements historiques. Il a immortalisé des figures comme Marilyn Monroe, Che Guevara ou encore Richard Nixon, mais c’est surtout son talent pour capturer des scènes du quotidien avec spontanéité et humour qui a fait sa renommée.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!-- Section Galerie avec une grille d'images -->
+<section class="bg-pink">
+    <div class="container py-5">
+        <!-- Titre de la section Galerie -->
+        <h2 class="display-4 text-center mb-5 text-dark fw-bold">Galerie</h2>
+        <div class="row">
+            <!-- Début des cartes d'images, 6 cartes au total -->
+            <div class="col-md-4 col-sm-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100">
+                    <div class="card-body">
+                        <div class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, harum?
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<!-- Répétition de cartes pour afficher plusieurs images -->
+			<!-- ... les autres cartes sont similaires à la première ... -->
+			<div class="col-md-4 col-sm-4">
+				<div class="card mb-4 shadow-sm">
+					<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100">
+					<div class="card-body">
+						<div class="card-text">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, harum?
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="card mb-4 shadow-sm">
+					<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100">
+					<div class="card-body">
+						<div class="card-text">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, harum?
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="card mb-4 shadow-sm">
+					<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100">
+					<div class="card-body">
+						<div class="card-text">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, harum?
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="card mb-4 shadow-sm">
+					<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100">
+					<div class="card-body">
+						<div class="card-text">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, harum?
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<div class="card mb-4 shadow-sm">
+					<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" alt="Exposition Ellitt Erwitt Bruxelles Portrait de Elliott Erwitt" class="w-100">
+					<div class="card-body">
+						<div class="card-text">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, harum?
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Section Avis avec un carousel d'avis utilisateurs -->
+	<section class="bg-blue py-5">
+		<!-- Titre de la section Avis -->
+		<h2 class="display-4 text-center mb-5 text-white fw-bold">Avis</h2>
+		<!-- Carousel des avis utilisateurs -->
+		<div id="carouselAvis" class="carousel carousel-dark slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<!-- Premier avis utilisateur -->
+				<div class="carousel-item active">
+					<div class="card bg-pink text-dark text-center p-4 border-0 mx-auto" style="max-width: 500px;">
+						<!-- Image de l'utilisateur -->
+						<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" class="rounded-circle mx-auto mb-3" width="80" height="80" alt="Client 1">
+						<h5>Jean Dupont</h5>
+						<p>"Une expérience incroyable, je recommande vivement cette exposition !"</p>
+					</div>
+				</div>
+				<!-- Deuxième avis utilisateur -->
+				<div class="carousel-item">
+					<div class="card bg-pink text-dark text-center p-4 border-0 mx-auto" style="max-width: 500px;">
+						<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" class="rounded-circle mx-auto mb-3" width="80" height="80" alt="Client 2">
+						<h5>Marie Curie</h5>
+						<p>"Des œuvres fascinantes et une organisation impeccable. Bravo !"</p>
+					</div>
+				</div>
+				<!-- Troisième avis utilisateur -->
+				<div class="carousel-item">
+					<div class="card bg-pink text-white text-center p-4 border-0 mx-auto" style="max-width: 500px;">
+						<img src="assets/images/exposition-elliott-erwitt-bruxelles-file-portrait-elliott-erwitt.png" class="rounded-circle mx-auto mb-3" width="80" height="80" alt="Client 3">
+						<h5>Lucas Martin</h5>
+						<p>"J’ai adoré chaque instant, une exposition mémorable !"</p>
+					</div>
+				</div>
+			</div>
+			<!-- Boutons de navigation pour le carousel (précédent/suivant) -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselAvis" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Précédent</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselAvis" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Suivant</span>
+			</button>
+		</div>        
+	</section>
+	<!-- Section Contactez-nous avec un formulaire de contact -->
+	<section class="bg-pink py-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<!-- Titre de la section Contact -->
+					<h2 class="display-4 text-center mb-5 text-dark fw-bold">Contactez-nous</h2>
+					<!-- Formulaire de contact avec validation -->
+					<form class="needs-validation" novalidate>
+						<div class="row">
+							<!-- Colonne gauche : Nom et Email -->
+							<div class="col-md-6">
+								<!-- Champ pour le nom -->
+								<div class="mb-3">
+									<label for="name" class="form-label">Nom</label>
+									<input type="text" class="form-control" id="name" required>
+									<div class="invalid-feedback">Veuillez entrer votre nom.</div>
+								</div>
+								<!-- Champ pour l'email -->
+								<div class="mb-3">
+									<label for="email" class="form-label">Email</label>
+									<input type="email" class="form-control" id="email" required>
+									<div class="invalid-feedback">Veuillez entrer un email valide.</div>
+								</div>
+							</div>
+							<!-- Colonne droite : Message -->
+							<div class="col-md-6">
+								<!-- Champ pour le message -->
+								<div class="mb-3">
+									<label for="message" class="form-label">Message</label>
+									<textarea class="form-control" id="message" rows="5" required></textarea>
+									<div class="invalid-feedback">Veuillez entrer un message.</div>
+								</div>
+							</div>
+						</div>
+						<!-- Bouton d'envoi -->
+						<button type="submit" class="btn bg-blue text-white w-100">Envoyer</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Section footer avec des informations complémentaires -->
+<footer class="py-4 bg-blue">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <!-- Colonne 1 : À Propos -->
+            <div class="col-md-3">
+                <h3 class="fw-bold text-white">A Propos</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white" title="">Newsletter</a></li>
+                    <li><a href="#" class="text-white" title="">Règlement de visite</a></li>
+                    <li><a href="#" class="text-white" title="">Accessibilité</a></li>
+                    <li><a href="#" class="text-white" title="">Mention légales</a></li>
+                </ul>
+            </div>
+            <!-- Colonne 2 : Partenaire -->
+            <div class="col-md-3">
+                <h3 class="fw-bold text-white">Partenaire</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white" title="">E-boutique</a></li>
+                    <li><a href="#" class="text-white" title="">5GrandPlace</a></li>
+                </ul>
+            </div>
+            <!-- Colonne 3 : Nous contacter -->
+            <div class="col-md-3">
+                <h3 class="fw-bold text-white">Nous contacter</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white" title="">Contacts</a></li>
+                    <li><a href="#" class="text-white" title="">Privatisation</a></li>
+                    <li><a href="#" class="text-white" title="">Donnez votre avis</a></li>
+                </ul>
+            </div>
+            <!-- Colonne 4 : Suivez-nous -->
+            <div class="col-md-3 text-center text-md-end">
+                <h3 class="fw-bold text-white">Suivez-nous</h3>
+                <div class="d-flex justify-content-center justify-content-md-end gap-2">
+                    <!-- Icônes de réseaux sociaux -->
+                    <a href="#"><img src="assets/images/icons/exposition-elliott-erwitt-bruxelles-icon-instagram.png" alt="Instagram" class="social-icon"></a>
+                    <a href="#"><img src="assets/images/icons/exposition-elliott-erwitt-bruxelles-icon-facebook.png" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="assets/images/icons/exposition-elliott-erwitt-bruxelles-icon-x.png" alt="Twitter" class="social-icon"></a>
+                    <a href="#"><img src="assets/images/icons/exposition-elliott-erwitt-bruxelles-icon-linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center mt-3 text-white">
+            <small>Copyright © 2025 Elliott Erwitt expo. All rights reserved</small>
+        </div>
+    </div>
+</footer>
+
+<!-- Script Bootstrap pour les interactions (formulaire et autres composants) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

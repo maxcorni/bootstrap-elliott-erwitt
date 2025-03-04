@@ -1,0 +1,34 @@
+.accueil{
+    background: url(../assets/images/exposition-elliott-erwitt-bruxelles-file-banner-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.bg-blue{
+    background-color: #232946;
+}
+
+.bg-pink{
+    background-color: #EEBBC3;
+}
+.text-pink{
+    color: #EEBBC3;
+}
+
+/* Pour que le menu burger apparaisse à partir d'un écran extra-small (xs) */
+@media (max-width: 575.98px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .offcanvas {
+        display: block;
+    }
+}
